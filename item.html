@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <input type="text" id="item"/>
+  <button id="add item">add item</button>
+  <div id="box"></div>
+      <script src="script.js">
+      </script>
+  </body>
+</html>
+var item = document. getelementbyid("item")
+var item = document. getelementbyid("add item")
+var box.document.getelementbyid("box")
+add item. add eventlistener("click",function(){
+  console.log(item.value)
+  var paragraph=document.createelement("p")
+  paragraph.innertext=item.value
+  box.appendchild("paragraph")
+})
