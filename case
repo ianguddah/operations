@@ -1,0 +1,28 @@
+<html>
+<body>
+<script>
+var marks =prompt("enter marks");
+
+switch(true) {
+case(marks >= 100):
+    alert("A");
+    break;
+case(marks >= 69):
+    alert("B");
+    break;
+case(marks >= 59):
+    alert("C");
+    break;
+case(marks >= 49):
+    alert("D");
+    break;
+case(marks >= 39):
+    alert("fail");
+    break;
+deafult:
+    alert("Fail");
+    break;
+}
+</script>
+</body>
+</html>
